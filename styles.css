@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #000000;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #ffffff;
+}
+
+
+section {
+    padding-bottom: 5rem;
+}
+
+
+.nav-link {
+    color: #070404;
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url(img/images\ \(3\).jpg);
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+
+.btn-primary {
+    color :#ffffff;
+    border-radius: 30px;
+    border: none;
+    width: 7em;
+    height: 3em;
+    align-content: center;
+    background-color: #000000;
+
+}
+
+
+.botao-inicio {
+    color :#ffffff;
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+
+
+
+
+.produtos {
+    background-color: #606060;
+
+}
+
+#contato {
+    background-image: url(img/images\ \(2\).jpg);
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #ffffff00;
+    padding: 2rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #0e0d0c;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #fffffffa;
+}
+
+
+.botao-instagram {
+    display: inline-block;
+    width: 50px; /* Tamanho do botão */
+    height: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+    background-size: cover;
+    border-radius: 50%; /* Deixa redondo */
+    transition: 0.3s;
+}
+
+.botao-instagram:hover {
+    opacity: 0.8; /* Efeito ao passar o mouse */
+}
+
+.botao-tiktok {
+    display: inline-block;
+    width: 60px; /* Tamanho do botão */
+    height: 60px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg'); /* Logo do TikTok */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Deixa o botão redondo */
+    transition: 0.3s;
+}
+
+.botao-tiktok:hover {
+    opacity: 0.8; /* Efeito ao passar o mouse */
+}
+
+
+.botao-site {
+    display: inline-block;
+    width: 60px; /* Tamanho do botão */
+    height: 50px;
+    background-image: url("img/image.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Deixa o botão redondo */
+    transition: 0.3s;
+}
+
+.botao-site:hover {
+    opacity: 0.8; /* Efeito ao passar o mouse */
+}
+
+
+
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Modo escuro */
+body.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+
+/* Estilo de links */
+a {
+    color: #007bff;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
