@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
@@ -65,6 +64,93 @@ section {
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste para telas menores que 768px (tablets e celulares) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Ajusta a largura */
+        margin: 0 auto;
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column; /* Deixa o menu vertical */
+        text-align: center;
+    }
+
+    .col-4, .col-5 {
+        width: 100%; /* Deixa o conteúdo ocupando toda a largura */
+        text-align: center;
+    }
+
+    .inicio-fundo {
+        text-align: center;
+        padding: 20px;
+    }
+
+    img {
+        width: 300%; /* Ajusta imagens para caber na tela */
+        height: auto;
+    }
+
+    .btn {
+        width: 100%; /* Botões ocupam toda a largura no mobile */
+    }
+}
+
+
+.btn-pc {
+    display: block;  /* Visível no PC */
+}
+
+.btn-mobile {
+    display: none;  /* Escondido no PC */
+}
+
+/* Quando a tela for menor que 768px (modo mobile) */
+@media screen and (max-width: 768px) {
+    .btn-pc {
+        display: none;  /* Esconder botão do PC */
+    }
+
+    .btn-mobile {
+        display: block;  /* Mostrar botão no mobile */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -184,3 +270,8 @@ a {
 body.dark-mode a {
     color: #bb86fc;
 }
+
+
+
+
+
